@@ -17,7 +17,7 @@
 由于英语对程序员是非常重要的,可以看下这位大佬的文章[老码农教你学英语](http://blog.jobbole.com/45296/#comment-158686)，所以这里我也开始我阅读英文文档的第一步，如果大家有好的学习方法可以和我交流。以前也有无数次学习英语的冲动，每次都拿起各种背单词的APP苦学一两周，然并卵，`一起学Spring Cloud的官方英文文档`系列教程，我会以官方英文文档为主，和大家一起去搭建`Spring Cloud框架`。
 
 ## 目录
-- [【一起学Spring Cloud的官方英文文档】目录篇 我是「煮酒泛舟」](../sc-e-01)
+- [【一起学Spring Cloud的官方英文文档】目录篇 我是「煮酒泛舟」](https://lixhbs.gitee.io/blog/2018/09/12/sc-e-01/)
 - 【一起学Spring Cloud的官方英文文档】第一篇 Service Discovery | 服务发现 - Eureka
 - 【一起学Spring Cloud的官方英文文档】第二篇 Spring Cloud Config | 配置中心 - Config
 - 【一起学Spring Cloud的官方英文文档】第三篇 Circuit Breaker | 断路器 - Hystrix
