@@ -2,7 +2,7 @@
 
 > 我不是大佬，如果能将《一起学Spring Cloud的官方英文文档》这一系列文章完成那应该在成为大佬的路上了。
 
-教程源码Github地址：[https://github.com/lixhubei/SpringCloudEnglish](https://github.com/lixhubei/SpringCloudEnglish)
+教程源码Github地址：[https://github.com/lixhubei/SpringCloudEnglish](https://github.com/lixhubei/SpringCloudEnglish)    
 教程源码Gitee地址：[https://gitee.com/Lixhbs/SpringCloudEnglish](https://gitee.com/Lixhbs/SpringCloudEnglish)
 
 ## 环境
