@@ -1,9 +1,12 @@
 server:
   port: 8761 # 端口
-
+servlet:
+  path: /custom
 eureka:
   instance:
     hostname: localhost # 主机
+    health-check-url: ${server.servlet.path}/health
+    status-page-url: ${server.servlet.path}/info
   client:
     registerWithEureka: false #是否注册自己
     fetchRegistry: false #是否注册自己
