@@ -1,10 +1,10 @@
-# 【参照官方英文文档学Spring Cloud】目录篇 - 我是「煮酒泛舟」
+# 【Spring Cloud】目录篇 - 我是「煮酒泛舟」
 
-> 通过官方文档学习Spring cloud， 也希望大家能告知下程序员学习英语的方式。
+> Spring cloud， 也希望大家能告知下程序员学习英语的方式。
 
 <!--more-->
 
-教程源码Github地址：[https://github.com/lixhubei/SpringCloudEnglish](https://github.com/lixhubei/SpringCloudEnglish)
+教程源码Github地址：[https://github.com/lixhubei/SpringCloudEnglish](https://github.com/lixhubei/SpringCloudEnglish)    
 教程源码Gitee地址：[https://gitee.com/Lixhbs/SpringCloudEnglish](https://gitee.com/Lixhbs/SpringCloudEnglish)
 
 ## 环境
