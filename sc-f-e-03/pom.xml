@@ -22,6 +22,7 @@
         <module>eureka-server</module>
         <module>eureka-client</module>
         <module>server-hystrix</module>
+        <module>server-ribbon</module>
     </modules>
 
     <properties>
@@ -36,7 +37,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>

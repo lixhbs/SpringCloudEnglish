@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.cyinfotech</groupId>
-    <artifactId>server-hystrix</artifactId>
+    <artifactId>server-ribbon</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>server-hystrix</name>
+    <name>server-ribbon</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
@@ -22,7 +22,7 @@
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+            <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
         </dependency>
 
         <!--Eureka-Client-->

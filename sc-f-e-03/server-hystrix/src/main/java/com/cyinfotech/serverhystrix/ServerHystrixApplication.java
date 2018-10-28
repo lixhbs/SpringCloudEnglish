@@ -1,16 +1,21 @@
 package com.cyinfotech.serverhystrix;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Map;
 
 @SpringBootApplication
 @EnableCircuitBreaker
+@EnableDiscoveryClient
 @RestController
 public class ServerHystrixApplication {
 
@@ -21,9 +26,12 @@ public class ServerHystrixApplication {
     @Autowired
     StoreIntegration storeIntegration;
 
-    @RequestMapping("/")
-    public Object getHi (Map<String, Object> parameters){
+    @Value("${server.port}")
+    String port;
 
-        return storeIntegration.getStores(parameters);
+    @RequestMapping("/")
+    public Object getHi (@RequestParam String name){
+
+        return "HI - " + name + "， port:" + port + ", By server-hystrix.";
     }
 }
