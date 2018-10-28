@@ -28,9 +28,15 @@
 ## 为什么去看英文文档
 为什么去看英文文档，就只有一个原因，因为最新的技术都是英文版的。    
 怎么去学，我之前有看过一个人的（突然忘记名字了，想起来再不上来）有个透析法，但是要有一定的英语基础，由于我算是没有基础的所以我想结合这个透析法，然后自己琢磨下如何去学，因为技术文章和其他的文章有点不一样，技术文章里面有很多的专业术语,但是这些术语是有限的，所以看得多了就应该就会了。我们这种应该属于哑巴英语！
-
 ## 目录
 - [【Spring Cloud】目录篇 我是「煮酒泛舟」](https://blog.aprcode.com/sc-f-e-00/)
 - [【Spring Cloud】第一篇 Service Discovery | 服务发现 - Eureka](https://blog.aprcode.com/sc-f-e-01)
 - [【Spring Cloud】第二篇 Circuit Breaker | 断路器 - Hystrix](https://blog.aprcode.com/sc-f-e-02)
+- [【Spring Cloud】第三篇 Client Side Load Balancer | 负载均衡 - Ribbon](https://blog.aprcode.com/sc-f-e-03)
+
+欢迎关注我的公众号，跟我留言。   
+![](http://paz1myrij.bkt.clouddn.com/qrcode_for_gh_22df58e4959f_258.jpg)
+
+## 目录
+
 
