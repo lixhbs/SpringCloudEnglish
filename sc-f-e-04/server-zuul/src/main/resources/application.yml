@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: server-zuul
+server:
+  port: 8084
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+zuul:
+  routes:
+    aa:
+      path: /hy/**
+      serviceId: server-hystrix
+    bb:
+      path: /ec/**
+      serviceId: eureka-client

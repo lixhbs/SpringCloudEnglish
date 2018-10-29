@@ -34,4 +34,10 @@ public class ServerHystrixApplication {
 
         return "HI - " + name + "， port:" + port + ", By server-hystrix.";
     }
+
+    @RequestMapping("/hi")
+    public Object hi (){
+
+        return "HI, By server-hystrix.";
+    }
 }
