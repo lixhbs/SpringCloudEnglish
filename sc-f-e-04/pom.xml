@@ -23,6 +23,7 @@
         <module>eureka-client</module>
         <module>server-hystrix</module>
         <module>server-ribbon</module>
+        <module>server-zuul</module>
     </modules>
 
     <properties>
