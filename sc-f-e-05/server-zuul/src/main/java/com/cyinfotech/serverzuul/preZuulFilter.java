@@ -4,6 +4,8 @@ import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;
 import org.apache.commons.lang.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
@@ -22,6 +24,9 @@ import static org.springframework.cloud.netflix.zuul.filters.support.FilterConst
  */
 @Component
 public class preZuulFilter extends ZuulFilter {
+
+    private static Logger log = LoggerFactory.getLogger(errorZuulFilter.class);
+
     @Override
     public String filterType() {
         return PRE_TYPE;
@@ -46,9 +51,10 @@ public class preZuulFilter extends ZuulFilter {
         HttpServletRequest request = requestContext.getRequest();
 
         String name = request.getParameter("name");
-
-        if (StringUtils.isNotEmpty(name) && name.equals("cyit")) {
+        log.info(String.format("%s >>> %s", request.getMethod(), "run by PRE_TYPE"));
+        if (StringUtils.isNotEmpty(name) && name.equals("CHYIT")) {
             requestContext.setSendZuulResponse(true);
+            requestContext.set("isSuccess", true);
         } else {
             requestContext.setSendZuulResponse(false);
             try {

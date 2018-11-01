@@ -16,4 +16,6 @@ public class ServerZuulApplication {
         SpringApplication.run(ServerZuulApplication.class, args);
     }
 
+
+
 }
